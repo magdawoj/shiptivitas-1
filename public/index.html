@@ -39,6 +39,11 @@
     -->
       </head/> 
     run 'npm start'
-    config/patches/<software-name>
+    # to generate a patch between two commits
+git diff commitid1 commitid2 > my_awesome_change.patch
+
+# to generate a patch between the HEAD and a specific commits
+git diff commitid1 > my_awesome_change.patch
+    
   </body>
 </html>
